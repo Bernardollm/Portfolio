@@ -46,10 +46,9 @@ header{
     margin: 0 5px;
 }
 
-.nav-bar ul li a:hover {
-    color: black;
-    background: white;
-}
+.nav-bar a:hover {
+    text-shadow: 0 0 5px #001aff;
+  }
 
 @media only screen and (max-width: 1320px) {
     header {
