@@ -18,7 +18,7 @@ header{
     background: #23232e;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
     padding: 0 100px;
 }
 
@@ -101,6 +101,23 @@ header{
     }
 }
 
+h1{
+    text-align: center;
+    align-items: center;
+    color: #2b326d;
+    padding: 10px;
+}
+
+
+
+.redesh1{
+    color: white;
+    text-align: left; 
+    align-items: left;
+}
+
+    
+
 
 
 /* Rodape*/
@@ -124,12 +141,13 @@ header{
 }
 
 main {
-    height: 80vh;
+    height: 30vh;
 }
 
 footer {
     width: 100%;
     color: var(--color-neutral-40);
+    
 }
 
 .footer-link {
@@ -141,6 +159,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
+    
 }
 
 #footer_contacts h1 {
@@ -197,7 +216,7 @@ footer {
 }
 
 .footer-list .footer-link:hover {
-    color: #7f37c9;
+    color: #2b326d;
 }
 
 #footer_subscribe {
@@ -213,7 +232,7 @@ footer {
 #input_group {
     display: flex;
     align-items: center;
-    background-color: var(--color-neutral-0);
+    background-color: white;
     border-radius: 4px;
 }
 
@@ -221,10 +240,11 @@ footer {
     all: unset;
     padding: 0.75rem;
     width: 100%;
+    color: black;
 }
 
 #input_group button {
-    background-color: #7f37c9;
+    background-color: #2b326d;
     border: none;
     color: var(--color-neutral-40);
     padding: 0px 1.25rem;
@@ -261,28 +281,6 @@ footer {
         padding: 3rem 2rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
