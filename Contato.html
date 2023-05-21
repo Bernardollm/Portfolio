@@ -7,14 +7,15 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <div class="logo">Bernardo Ladeira</div>
         <div class="hamburguer">
-            <div class="linha"></div>
-            <div class="linha"></div>
-            <div class="linha"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
         <nav class="nav-bar">
             <ul>
@@ -41,6 +42,13 @@
     </header>
     <h1>Contato</h1>
     <div class="card"></div>
+    <script>
+        hamburguer = document.querySelector(".hamburguer");
+        hamburguer.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
 
 
     <main>
@@ -64,6 +72,10 @@
                     <a href="https://wa.me/5532998125124" class="footer-link" target="_blank" id="whatsapp">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
+
+                    <a href="https://www.linkedin.com/in/bernardo-ladeira-517a78277/" class="footer-link" target="_blank" id="linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
                 </div>
             </div>
             
@@ -72,22 +84,22 @@
                     <h3>Acesso ao menu</h3>
                 </li>
                 <li>
-                    <a href="Pagina principal.html" class="footer-link">Paginia Principal</a>
+                    <a href="Página principal.html" class="footer-link">Página Principal</a>
                 </li>
                 <li>
                     <a href="Sobre mim.html" class="footer-link">Sobre mim</a>
                 </li>
                 <li>
-                    <a href="Formacao.html" class="footer-link">Formacao</a>
+                    <a href="Formação.html" class="footer-link">Formação</a>
                 </li>
                 <li>
-                    <a href="Atuacao Profissional.html" class="footer-link">Atuacao Profissional</a>
+                    <a href="Atuação Profissional.html" class="footer-link">Atuação Profissional</a>
                 </li>
                 <li>
                     <a href="Contato.html" class="footer-link">Contato</a>
                 </li>
                 <li>
-                    <a href="Portfolio.html" class="footer-link">Portfolio</a>
+                    <a href="Portfólio.html" class="footer-link">Portfólio</a>
                 </li>
 
             </ul>
