@@ -504,3 +504,19 @@ footer {
     display: flex;
 }
 
+.card7{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 10px #2b326d;
+    padding: 10px;
+    margin-bottom: 20px ;
+    margin-top: 190px;
+    display: flex;
+    
+    
+}
