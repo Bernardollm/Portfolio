@@ -143,10 +143,458 @@ h1{
       max-width: 100%;
     }
   }
+/*fim menu*/
+
+
+/* Cards*/
+
+
+.card {
+    margin: auto;
+    width: 100%;
+    max-width: 600px; /* Define a largura máxima do card */
+    height: 300px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 110px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 10px #2b326d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+   
+
+  .card1 {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 10px #2b326d;
+    padding: 10px;
+    margin-bottom: 20px ;
+    margin-top: 190px;
+    display: flex;
+  }
+  
+
+ .card1 #footer_social_media {
+    flex-direction: column;
+    padding: 30px;
+    margin: auto;
+    margin-top: -15px;
+    margin-left:30px ;
+ }
+
+ .cardsobre{
+  margin: auto;
+  width: 100%;
+  max-width: 500px; 
+  height: 300px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 190px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .cardsobretitulo{
+  margin: auto;
+  width: 100%;
+  max-width: 500px; 
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .cardatuacao{
+  margin: auto;
+  width: 100%;
+  max-width: 500px; 
+  height: 300px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 110px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+ }
+
+ .cardatuacao2{
+  margin: auto;
+  width: 100%;
+  max-width: 500px; 
+  height: 300px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  
+  margin-right: 15%;
+  
+  
+ }
+
+
+ .cardcontato{
+  margin: auto;
+  width: 100%;
+  max-width: 500px; 
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .card5 {
+    margin: auto;
+    width: 100%;
+    max-width: 600px; 
+    height: 70px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 10px #2b326d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.card6{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 600px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 10px #2b326d;
+    padding: 10px;
+    margin-bottom: 20px ;
+    margin-top: 190px;
+    display: flex;
+}
+
+.card7{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 10px #2b326d;
+    padding: 10px;
+    margin-bottom: 20px ;
+    margin-top: 190px;
+    display: flex;
+    
+    
+}
+
+.cardportfoliotitulo{
+  margin: auto;
+  width: 100%;
+  max-width: 500px; 
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .responsive {
+    padding: 0 20px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .referencias{
+  width: 600px;
+  height: 500px;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  }
+
+
+  /*formação*/
+.section {
+  margin-bottom: 20px;
+}
+.section-title {
+  font-weight: bold;
+}
+.section-content {
+  margin-top: 8px;
+}
+
+.cardformacaotitulo{
+  margin: auto;
+  width: 100%;
+  max-width: 500px; 
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cardformacao {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 700px; 
+    height: 450px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 110px;
+    flex-wrap: wrap;
+    background: #e0e0e0;
+    box-shadow:10px 10px 10px #2b326d ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* fim formação*/
+
+
+/*formulario */
+.form {
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  height: 400px;
+  background: #2b326d;
+  box-shadow: 10px 10px 10px #181818;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .form {
+    width: 80%; /* Reduza a largura para telas menores */
+    margin-top: 60px; /* Ajuste a margem superior para telas menores */
+    margin-bottom: 100px; /* Ajuste a margem inferior para telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .form {
+    width: 90%; /* Reduza ainda mais a largura para telas ainda menores */
+    margin-top: 30px; /* Ajuste a margem superior para telas ainda menores */
+    margin-bottom: 50px; /* Ajuste a margem inferior para telas ainda menores */
+    padding: 20px; /* Reduza o espaçamento interno para telas ainda menores */
+  }
+}
+
+.form .title {
+  margin: auto;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  outline: 0;
+  border: 1px solid rgb(219, 213, 213);
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+}
+
+.form textarea {
+  border-radius: 8px;
+  height: 100px;
+  width: 100%;
+  resize: none;
+  outline: 0;
+  border: 1px solid rgb(219, 213, 213);
+}
+
+.form .mam {
+  padding: 20px;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 0;
+}
+
+.mam {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms;
+  margin-bottom: 20px;
+  margin-left: 195px;
+}
+.mam:hover {
+  color: #fff;
+  background-color: #113f6d;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+/* fim form */
+
+
+
+.cardCSS{
+  margin: auto;
+  width: 100%;
+  max-width: 800px; 
+  height: 600px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+ .cardHTML{
+  margin: auto;
+  width: 100%;
+  max-width: 500px; 
+  height: 850px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+.cardJS{
+  margin: auto;
+  width: 100%;
+  max-width: 800px; 
+  height: 600px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ 
 
 
 /* Rodape*/
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 
 :root {
@@ -310,213 +758,4 @@ footer {
         padding: 3rem 2rem;
     }
 }
-
-
-
-/* Cards*/
-
-
-.card {
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 300px;
-    border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow: 10px 10px 10px #2b326d;
-    padding: 10px;
-    margin-bottom: 20px ;
-    margin-top: 190px;
-    display: flex;
-   }
-
-   .subscribe {
-    margin: auto;
-    position: absolute;
-    height: 140px;
-    width: 240px;
-    padding: 20px;
-    background-color: #FFF;
-    border-radius: 4px;
-    color: #333;
-    box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.4);
-    margin-left: 70px;
-  }
-  
-  .subscribe:after {
-    position: absolute;
-    content: "";
-    right: -10px;
-    bottom: 18px;
-    width: 0;
-    height: 0;
-    border-left: 0px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #1a044e;
-  }
-  
-  .subscribe p {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 4px;
-    line-height: 28px;
-  }
-  
-  .subscribe input {
-    position: absolute;
-    bottom: 30px;
-    border: none;
-    border-bottom: 1px solid #d4d4d4;
-    padding: 10px;
-    width: 82%;
-    background: transparent;
-    transition: all .25s ease;
-  }
-  
-  .subscribe input:focus {
-    outline: none;
-    border-bottom: 1px solid #0d095e;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
-  }
-  
-  .subscribe .submit-btn {
-    position: absolute;
-    border-radius: 30px;
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-    background-color: #0f0092;
-    color: #FFF;
-    padding: 12px 25px;
-    display: inline-block;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 5px;
-    right: -10px;
-    bottom: -20px;
-    cursor: pointer;
-    transition: all .25s ease;
-    box-shadow: -5px 6px 20px 0px rgba(26, 26, 26, 0.4);
-  }
-  
-  .subscribe .submit-btn:hover {
-    background-color: #07013d;
-    box-shadow: -5px 6px 20px 0px rgba(88, 88, 88, 0.569);
-  }
-
-  .card1 {
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 300px;
-    border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow: 10px 10px 10px #2b326d;
-    padding: 10px;
-    margin-bottom: 20px ;
-    margin-top: 190px;
-    display: flex;
-  }
-  
-
- .card1 #footer_social_media {
-    flex-direction: column;
-    padding: 30px;
-    margin: auto;
-    margin-top: -15px;
-    margin-left:30px ;
- }
-
- .card2{
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    width: 900px;
-    height: 600px;
-    border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow: 10px 10px 10px #2b326d;
-    padding: 10px;
-    margin-bottom: 20px ;
-    margin-top: 190px;
-    display: flex;
- }
-
- .card3{
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    width: 1000px;
-    height: 700px;
-    border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow: 10px 10px 10px #2b326d;
-    padding: 10px;
-    margin-bottom: 20px ;
-    margin-top: 190px;
-    display: flex;
- }
-
- .card4{
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 50px;
-    border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow: 10px 10px 10px #2b326d;
-    padding: 10px;
-    margin-bottom: 20px ;
-    margin-top: 60px;
-    display: flex;
- }
-
- .card5{
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    width: 700px;
-    height: 70px;
-    border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow: 10px 10px 10px #2b326d;
-    padding: 10px;
-    margin-bottom: 20px ;
-    margin-top: 60px;
-    display: flex;
- }
-
-.card6{
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
-    height: 600px;
-    border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow: 10px 10px 10px #2b326d;
-    padding: 10px;
-    margin-bottom: 20px ;
-    margin-top: 190px;
-    display: flex;
-}
-
-.card7{
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 300px;
-    border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow: 10px 10px 10px #2b326d;
-    padding: 10px;
-    margin-bottom: 20px ;
-    margin-top: 190px;
-    display: flex;
-    
-    
-}
+/*fim rodape*/
