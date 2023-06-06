@@ -146,13 +146,13 @@ h1{
 /*fim menu*/
 
 
-/* Cards*/
+/* Cards Pag Inicial*/
 
 
-.card {
+.cardPaginicial {
     margin: auto;
     width: 100%;
-    max-width: 600px; /* Define a largura máxima do card */
+    max-width: 600px; 
     height: 300px;
     border-radius: 30px;
     padding: 10px;
@@ -165,31 +165,27 @@ h1{
     align-items: center;
   }
 
-   
-
-  .card1 {
+  .cardPaginicialtitulo {
     margin: auto;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    max-width: 600px; 
+    height: 70px;
     border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 80px;
     background: #e0e0e0;
     box-shadow: 10px 10px 10px #2b326d;
-    padding: 10px;
-    margin-bottom: 20px ;
-    margin-top: 190px;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+/* Fim Cards Pag Inicial*/
+
   
 
- .card1 #footer_social_media {
-    flex-direction: column;
-    padding: 30px;
-    margin: auto;
-    margin-top: -15px;
-    margin-left:30px ;
- }
+/*Cards sobre mim*/
 
  .cardsobre{
   margin: auto;
@@ -223,182 +219,11 @@ h1{
   align-items: center;
  }
 
- .cardatuacao{
-  margin: auto;
-  width: 100%;
-  max-width: 500px; 
-  height: 300px;
-  border-radius: 30px;
-  padding: 10px;
-  margin-bottom: 20px;
-  margin-top: 110px;
-  background: #e0e0e0;
-  box-shadow: 10px 10px 10px #2b326d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 15%;
- }
-
- .cardatuacao2{
-  margin: auto;
-  width: 100%;
-  max-width: 500px; 
-  height: 300px;
-  border-radius: 30px;
-  padding: 10px;
-  margin-bottom: 100px;
-  margin-top: 10px;
-  background: #e0e0e0;
-  box-shadow: 10px 10px 10px #2b326d;
-  display: flex;
-  
-  margin-right: 15%;
-  
-  
- }
+ /* Fim Cards sobre mim*/
 
 
- .cardcontato{
-  margin: auto;
-  width: 100%;
-  max-width: 500px; 
-  height: 50px;
-  border-radius: 30px;
-  padding: 10px;
-  margin-bottom: 20px;
-  margin-top: 60px;
-  background: #e0e0e0;
-  box-shadow: 10px 10px 10px #2b326d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
+/* Cards Formação*/
 
- .card5 {
-    margin: auto;
-    width: 100%;
-    max-width: 600px; 
-    height: 70px;
-    border-radius: 30px;
-    padding: 10px;
-    margin-bottom: 20px;
-    margin-top: 80px;
-    background: #e0e0e0;
-    box-shadow: 10px 10px 10px #2b326d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-.card6{
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
-    height: 600px;
-    border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow: 10px 10px 10px #2b326d;
-    padding: 10px;
-    margin-bottom: 20px ;
-    margin-top: 190px;
-    display: flex;
-}
-
-.card7{
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 300px;
-    border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow: 10px 10px 10px #2b326d;
-    padding: 10px;
-    margin-bottom: 20px ;
-    margin-top: 190px;
-    display: flex;
-    
-    
-}
-
-.cardportfoliotitulo{
-  margin: auto;
-  width: 100%;
-  max-width: 500px; 
-  height: 50px;
-  border-radius: 30px;
-  padding: 10px;
-  margin-bottom: 20px;
-  margin-top: 60px;
-  background: #e0e0e0;
-  box-shadow: 10px 10px 10px #2b326d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
-
-
-div.gallery {
-    border: 1px solid #ccc;
-  }
-
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  .responsive {
-    padding: 0 20px;
-    float: left;
-    width: 24.99999%;
-  }
-
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
-
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .referencias{
-  width: 600px;
-  height: 500px;
-  border: 2px solid black;
-  padding: 20px;
-  text-align: center;
-  margin: 0 auto;
-  text-align: center;
-  }
-
-
-  /*formação*/
 .section {
   margin-bottom: 20px;
 }
@@ -442,10 +267,85 @@ div.gallery {
     justify-content: space-between;
     align-items: center;
 }
-/* fim formação*/
+/* fim cards formação*/
 
+
+
+ /*cards atuacao*/
+
+ .cardatuacaotitulo{
+  margin: auto;
+  width: 100%;
+  max-width: 500px; 
+  height: 60px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .cardatuacao{
+  margin: auto;
+  width: 100%;
+  max-width: 500px; 
+  height: 300px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 140px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ }
+
+ .cardatuacao2{
+  margin: auto;
+  width: 100%;
+  max-width: 500px; 
+  height: 300px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  flex: 100%;
+ }
+
+ /* fim cards atuacao*/
+
+
+ /*card contato*/
+
+ .cardcontatotitulo{
+  margin: auto;
+  width: 100%;
+  max-width: 500px; 
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+/*fim card contato*/
 
 /*formulario */
+
 .form {
   margin: auto;
   margin-top: 90px;
@@ -537,9 +437,94 @@ div.gallery {
   transform: translateY(-2px);
 }
 
-/* fim form */
+/* fim formulario */
+
+ 
+/*cards Portfolio*/
+
+.cardportfoliotitulo{
+  margin: auto;
+  width: 100%;
+  max-width: 500px; 
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+/*fim card Portfolio*/
 
 
+/*Projetos Portfolio*/
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .responsive {
+    padding: 0 30px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .referencias{
+  width: 600px;
+  height: 500px;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  }
+
+  /* Fim Projetos Portfolio*/
+
+
+/* Cards CSS, HTML, JS*/
 
 .cardCSS{
   margin: auto;
@@ -591,10 +576,12 @@ div.gallery {
   align-items: center;
 }
 
- 
+ /* Fim Cards CSS, HTML, JS*/
+
 
 
 /* Rodape*/
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 
 :root {
@@ -758,4 +745,5 @@ footer {
         padding: 3rem 2rem;
     }
 }
+
 /*fim rodape*/
