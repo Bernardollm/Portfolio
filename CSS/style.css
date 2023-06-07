@@ -183,7 +183,33 @@ h1{
 
 /* Fim Cards Pag Inicial*/
 
+
+/*Video Paginicial*/
+
+.cardif {
+  margin: auto;
+  width: 100%;
+  max-width: 600px; 
+  height: 350px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 110px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 10px #2b326d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.if{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
   
+
 
 /*Cards sobre mim*/
 
@@ -512,8 +538,7 @@ div.gallery {
   }
 
   .referencias{
-  width: 600px;
-  height: 500px;
+  width: 50%;
   border: 2px solid black;
   padding: 20px;
   text-align: center;
@@ -522,61 +547,6 @@ div.gallery {
   }
 
   /* Fim Projetos Portfolio*/
-
-
-/* Cards CSS, HTML, JS*/
-
-.cardCSS{
-  margin: auto;
-  width: 100%;
-  max-width: 800px; 
-  height: 600px;
-  border-radius: 30px;
-  padding: 10px;
-  margin-bottom: 20px;
-  margin-top: 100px;
-  background: #e0e0e0;
-  box-shadow: 10px 10px 10px #2b326d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
-
-
- .cardHTML{
-  margin: auto;
-  width: 100%;
-  max-width: 500px; 
-  height: 850px;
-  border-radius: 30px;
-  padding: 10px;
-  margin-bottom: 20px;
-  margin-top: 100px;
-  background: #e0e0e0;
-  box-shadow: 10px 10px 10px #2b326d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
-
-
-.cardJS{
-  margin: auto;
-  width: 100%;
-  max-width: 800px; 
-  height: 600px;
-  border-radius: 30px;
-  padding: 10px;
-  margin-bottom: 20px;
-  margin-top: 100px;
-  background: #e0e0e0;
-  box-shadow: 10px 10px 10px #2b326d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
- /* Fim Cards CSS, HTML, JS*/
 
 
 
